@@ -10,4 +10,5 @@ if link_health == 4 image_index = 8
 if link_health == 3 image_index = 9
 if link_health == 2 image_index = 10
 if link_health == 1 image_index = 11
-if link_health == 0 image_index = 12
+if link_health == 0 { image_index = 12; link_dead = true; }
+object_health = link_health;

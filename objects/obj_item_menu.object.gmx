@@ -27,7 +27,7 @@
             <kind>1</kind>
             <string>image_speed = 0;
 visible = false;
-isMenu = 0;
+isMenu = false;
 </string>
           </argument>
         </arguments>
@@ -50,17 +50,19 @@ isMenu = 0;
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if isMenu == 0 {
-    isMenu = 1;
-    link_menu = 1;
+            <string>if isMenu == false {
+    isMenu = true;
+    link_menu = true;
+    link_busy = true;
     x = view_xview[0] + 25.25 ;
     y = view_yview[0] + 59;
     menu_check_database();
     visible = true;
 }
 else {
-    isMenu = 0;
-    link_menu = 0;
+    isMenu = false;
+    link_menu = false;
+    link_busy = false;
     visible = false;
 }
 </string>

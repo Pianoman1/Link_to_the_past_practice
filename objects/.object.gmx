@@ -30,8 +30,7 @@ image_speed = 0.5;
 
 Create_Global_Variables()
 Create_Item_Database()
-
-link_health = 12;
+Create_Health()
 
 //For exit cutscenes
 var North, South, East, West;
@@ -90,7 +89,7 @@ image_speed = 0.5;
             <kind>1</kind>
             <string>damage_refractory = false;
 link_busy = false;
-//link_hurt = false;
+link_hurt = false;
 sprite_index = spr_link_idle;
 </string>
           </argument>

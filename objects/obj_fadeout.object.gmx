@@ -48,7 +48,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (transition_flag == 1) {
+            <string>if (transition == true) {
     if alpha&gt;0
     {
     alpha-=0.05;

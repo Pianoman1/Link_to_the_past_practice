@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>link_obtain = 1;
+            <string>link_busy = true;
+link_obtain = true;
 //Add sword to inventory equiparray[0]
 equiparray[0] = 1;
 instance_destroy()

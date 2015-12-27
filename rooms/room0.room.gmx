@@ -51,6 +51,7 @@
     <view visible="0" objName="&lt;undefined&gt;" xview="0" yview="0" wview="1024" hview="768" xport="0" yport="0" wport="1024" hport="768" hborder="32" vborder="32" hspeed="-1" vspeed="-1"/>
   </views>
   <instances>
+    <instance objName="obj_Link" x="252" y="216" name="inst_36546B3E" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="-16" y="-16" name="inst_532A36EB" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="48" y="-16" name="inst_D64B4E6F" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_tree" x="-16" y="64" name="inst_7CC4CDF5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
@@ -119,13 +120,13 @@
     <instance objName="obj_bush" x="368" y="192" name="inst_5E17EA77" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_bush" x="224" y="96" name="inst_4A7BF943" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_stump" x="256" y="144" name="inst_35FB891B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_Link" x="256" y="224" name="inst_5324597A" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_room_change" x="48" y="504" name="inst_FE297A8E" locked="0" code="// 1= south 2 = north 3 = east 4 = west&#xA;target_exit = 1;&#xA;target_x = 240;&#xA;target_y = 0;&#xA;target_room = room1;&#xA;" scaleX="6" scaleY="0.25" colour="4294967295" rotation="0"/>
     <instance objName="obj_fadeout" x="16" y="20" name="inst_16B01DF2" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_sword" x="188" y="320" name="inst_E6F88CA5" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_health_bar" x="292" y="272" name="inst_2D6E9FBC" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
     <instance objName="obj_life_bar" x="312" y="240" name="inst_127D6787" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
-    <instance objName="obj_item_menu" x="160" y="272" name="inst_AC411242" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
+    <instance objName="obj_item_menu" x="148" y="276" name="inst_AC411242" locked="0" code="" scaleX="0.75" scaleY="0.75" colour="4294967295" rotation="0"/>
+    <instance objName="obj_tentacle" x="164" y="232" name="inst_36DF9A6B" locked="0" code="" scaleX="1" scaleY="1" colour="4294967295" rotation="0"/>
   </instances>
   <tiles/>
   <PhysicsWorld>0</PhysicsWorld>

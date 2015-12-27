@@ -25,9 +25,10 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if (transition_flag == 0) {
+            <string>if (transition == false) {
 
-    transition_flag = 1;
+    transition = true;
+    link_busy = true;
     link_exit = target_exit;
     next_room = target_room;        
     link_new_x = target_x;

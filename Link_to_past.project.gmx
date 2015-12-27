@@ -21,6 +21,8 @@
       <sprite>sprites\spr_link_idleR</sprite>
       <sprite>sprites\spr_link_slashL</sprite>
       <sprite>sprites\spr_link_slashR</sprite>
+      <sprite>sprites\spr_link_death</sprite>
+      <sprite>sprites\spr_link_take_damage</sprite>
     </sprites>
     <sprites name="Environment">
       <sprite>sprites\spr_grass</sprite>
@@ -80,6 +82,9 @@
       <sprite>sprites\spr_curr_item</sprite>
       <sprite>sprites\spr_magic_bar</sprite>
     </sprites>
+    <sprites name="Enemies">
+      <sprite>sprites\spr_tentacle</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\background0</background>
@@ -97,6 +102,7 @@
       <script>scripts\exit_room_east.gml</script>
       <script>scripts\exit_room_west.gml</script>
       <script>scripts\exit_room_south.gml</script>
+      <script>scripts\link_exit_cutscene.gml</script>
     </scripts>
     <scripts name="Collision">
       <script>scripts\collision_event.gml</script>
@@ -104,7 +110,6 @@
     </scripts>
     <scripts name="Movement">
       <script>scripts\link_walking_pattern.gml</script>
-      <script>scripts\link_attack.gml</script>
       <script>scripts\link_move.gml</script>
       <script>scripts\move_stop.gml</script>
       <script>scripts\link_walking.gml</script>
@@ -117,8 +122,24 @@
     <script>scripts\link_check_sprite.gml</script>
     <script>scripts\Create_Health.gml</script>
     <script>scripts\check_health.gml</script>
+    <script>scripts\Create_Global_Variables.gml</script>
+    <scripts name="Link_Combat">
+      <script>scripts\link_take_damage.gml</script>
+      <script>scripts\link_die_cutscene.gml</script>
+      <script>scripts\link_attack.gml</script>
+      <script>scripts\link_end_attack.gml</script>
+    </scripts>
+    <script>scripts\knock_enemy_back.gml</script>
+    <script>scripts\knock_link_back.gml</script>
+    <script>scripts\link_determine_position.gml</script>
+    <script>scripts\focus_link.gml</script>
+    <script>scripts\random_movements.gml</script>
+    <script>scripts\check_link_near.gml</script>
+    <script>scripts\check_enemy_health.gml</script>
+    <script>scripts\enemy_damage_animate.gml</script>
   </scripts>
   <objects name="objects">
+    <object>objects\obj_Link</object>
     <objects name="Enviroment">
       <object>objects\obj_grass</object>
       <object>objects\obj_bush</object>
@@ -132,7 +153,6 @@
       <object>objects\obj_hole</object>
       <object>objects\obj_cut</object>
     </objects>
-    <object>objects\obj_Link</object>
     <objects name="Underground">
       <object>objects\obj_wall</object>
       <object>objects\obj_wallL</object>
@@ -170,6 +190,7 @@
       <object>objects\obj_health_bar</object>
       <object>objects\obj_life_bar</object>
     </objects>
+    <object>objects\obj_tentacle</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>

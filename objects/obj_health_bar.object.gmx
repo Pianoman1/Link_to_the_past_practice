@@ -25,7 +25,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>image_speed = 0;
+            <string>object_health = link_health; //link_health;
+image_speed = 0;
 </string>
           </argument>
         </arguments>
@@ -48,7 +49,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>//check_health()
+            <string>if object_health != link_health check_health()
 </string>
           </argument>
         </arguments>
